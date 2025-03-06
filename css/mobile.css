@@ -1,0 +1,383 @@
+@media (max-width: 480px) {
+    .hero-main {
+        width: 100%;
+        height: 80%;
+        min-height: 617px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 6% 3% 3% 3%;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        color: #ffffff;
+        background: url(../img/background.png) no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+
+    .hero-main h3 {
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .hero-main .img {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .hero-main .img img {
+        height: 71%;
+        aspect-ratio: 1/1;
+        margin-bottom: 2%;
+    }
+
+    .hero-main .img p {
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .hero-main button {
+        background: #FFCB00;
+        height: 8.5%;
+        aspect-ratio: 210/48;
+        border: none;
+        border-radius: 3px;
+        color: #333333;
+        font-size: 1.3rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .advantages {
+        width: 100%;
+        height: 100%;
+        min-height: 952px;
+        padding: 15% 3%;
+    }
+
+    .advantages h2 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 12%;
+    }
+
+    .advantages .list-advantages {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .advantages .list-advantages .advantage {
+        background: #F5F5F5;
+        border-radius: 8px;
+        padding: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .advantages .list-advantages .advantage img {
+        width: 7%;
+        aspect-ratio: 1/1;
+        margin-bottom: 3%;
+    }
+
+    .advantages .list-advantages .advantage h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #333333;
+    }
+
+    .advantages .list-advantages .advantage p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .give-you {
+        width: 100%;
+        height: auto;
+        min-height: 970px;
+        padding: 0% 3% 15% 3%;
+    }
+
+    .give-you h2 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 12%;
+    }
+
+    .give-you .list-give {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+
+    .give-you .list-give .give {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .give-you .list-give .give img {
+        width: 7%;
+        aspect-ratio: 1/1;
+        margin-bottom: 3%;
+    }
+
+    .give-you .list-give .give h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #333333;
+    }
+
+    .give-you .list-give .give p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .give-you img {
+        width: 100%;
+        aspect-ratio: 3/4;
+    }
+
+    .steps {
+        width: 100%;
+        min-height: 790px;
+        padding: 0% 3% 15% 3%;
+    }
+
+    .steps h2 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 12%;
+    }
+
+    .steps .list-steps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+
+    .steps .list-steps .step {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px; 
+    }
+
+    .steps .list-steps .step:not('finalstep') {
+        border-bottom: 2px solid #000;
+        padding-bottom: 6%;
+    }
+
+    .steps .list-steps .step h1 {
+        font-size: 3.1rem;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 3%;
+    }
+
+    .steps .list-steps .step h5 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #333333;
+    }
+
+    .steps .list-steps .step p {
+        font-size: 1.1rem;
+        line-height: 140%;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .banner-1 {
+        width: 94%;
+        margin: 0 auto;
+        aspect-ratio: 300/484;
+        padding: 6%;
+        border-radius: 10px;
+        background: url(../img/banner.png) no-repeat;
+        background-size: cover;
+        color: #ffffff;
+    }
+
+    .banner-1 h2 {
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 15%;
+    }
+
+    .banner-1 .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .banner-1 .content .block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .banner-1 .content .block img {
+        width: 7%;
+        aspect-ratio: 1/1;
+    }
+
+    .banner-1 .content .block p {
+        font-size: 1.1rem;
+    }
+
+    .banner-2 {
+        width: 100%;
+        padding: 15% 3% 4% 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .banner-2 h2 {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .banner-2 p {
+        width: 68%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .banner-2 img {
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .contact {
+        width: 94%;
+        margin: 0 auto;
+        background: #F5F5F5;
+        border-radius: 10px;
+        padding: 6%;
+    }
+
+    .contact h2 {
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 6%;
+    }
+
+    .contact form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .contact form input {
+        border: none;
+        border-radius: 6px;
+        background: #ffffff;
+        padding: 6% 4%;
+        outline: none;
+    }
+
+    .contact form input::placeholder, .contact form textarea::placeholder {
+        color: #333333;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .contact form textarea {
+        resize: none;
+        width: 100%;
+        aspect-ratio: 260/127;
+        border: none;
+        background: #ffffff;
+        padding: 7% 4%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        font-style: italic;
+        color: #333333;
+        outline: none;
+    }
+
+    .contact form button {
+        width: 100%;
+        aspect-ratio: 260/48;
+        margin-top: 2%;
+        margin-bottom: 15%;
+        background: #FFCB00;
+        border: none;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #333333;
+        cursor: pointer;
+    }
+
+    .contact .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .contact .info h4 {
+        width: 100%;
+        font-size: 1rem;
+        color: #333333;
+        font-weight: 700;
+    }
+
+    .contact .info h4 span {
+        font-weight: 500;
+    }
+
+    .contact .info p {
+        color: #333333;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+}
