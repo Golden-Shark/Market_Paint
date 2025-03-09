@@ -1,0 +1,460 @@
+@media (orientation: portrait) {
+
+    .container {
+        width: 100%;
+        padding-inline: 3.125%;
+    }
+
+    .hero-main {
+        width: 100%;
+        height: auto;
+        min-height: 617px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding-block: 6.25%;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        color: #ffffff;
+        background: url(../img/background.png) no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
+
+    .hero-main #hero-content {
+        width: 100%;
+        margin-bottom: 12%;
+    }
+
+    .hero-main #hero-content h3 {
+        width: 100%;
+        font-size: 7.5vw;
+        font-weight: 500;
+    }
+
+    .hero-main .img {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 12.5%;
+    }
+
+    .hero-main .img img {
+        width: 74%;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 6.25%;
+    }
+
+    .hero-main .img p {
+        font-weight: 400;
+        font-size: 3.75vw;
+    }
+
+    .hero-main .btn-hero {
+        display: block;
+        width: 70%;
+        height: auto;
+        aspect-ratio: 210/48;
+    }
+
+    .hero-main .btn-hero button {
+        background: #FFCB00;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 3px;
+        color: #333333;
+        font-size: 5.6vw;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .advantages {
+        width: 100%;
+        height: auto;
+        padding-block: 15%;
+    }
+
+    .advantages h2 {
+        width: 100%;
+        font-size: 7.5vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 12%;
+    }
+
+    .advantages .list-advantages {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages .list-advantages .advantage {
+        width: 100%;
+        background: #F5F5F5;
+        border-radius: 8px;
+        padding: 6.7%;
+        padding-right: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .advantages .list-advantages .advantage img {
+        width: 9.2%;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 6.7%;
+    }
+
+    .advantages .list-advantages .advantage .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .advantages .list-advantages .advantage .content h5 {
+        font-size: 5vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 3.3%;
+    }
+
+    .advantages .list-advantages .advantage .content p {
+        font-size: 3.75vw;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .give-you {
+        width: 100%;
+        height: auto;
+        padding: 0% 3% 15% 3%;
+    }
+
+    .give-you h2 {
+        width: 100%;
+        font-size: 7.5vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 12%;
+    }
+
+    .give-you .list-give {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+
+    .give-you .list-give .give {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 6.7%;
+    }
+
+    .give-you .list-give .give img {
+        width: 8%;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 6.7%;
+    }
+
+    .give-you .list-give .give .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .give-you .list-give .give .content h5 {
+        font-size: 5.6vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 3.3%;
+    }
+
+    .give-you .list-give .give .content p {
+        font-size: 4.4vw;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .give-you .img-give {
+        width: 100%;
+        aspect-ratio: 3/4;
+    }
+
+    .give-you .img-give img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .steps {
+        width: 100%;
+        height: auto;
+        padding: 0% 3% 10% 3%;
+    }
+
+    .steps h2 {
+        width: 100%;
+        font-size: 7.5vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 13%;
+    }
+
+    .steps .list-steps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+
+    .steps .list-steps .step {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 6.7%; 
+        border-bottom: none;
+    }
+
+    .steps .list-steps .step:not(.finalstep) {
+        border-bottom: 2px solid #000;
+        padding-bottom: 6.7%;
+    }
+
+    .steps .list-steps .step h1 {
+        font-size: 12.5vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 6.7%;
+    }
+
+    .steps .list-steps .step h5 {
+        width: 100%;
+        font-size: 5.6vw;
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 3.3%;
+    }
+
+    .steps .list-steps .step p {
+        width: 100%;
+        font-size: 4.3vw;
+        line-height: 140%;
+        font-weight: 400;
+        color: #333333;
+    }
+
+    .banner-1 {
+        width: calc(100% - 3.125%*2);
+        margin: 0 auto;
+        height: auto;
+        /* aspect-ratio: 300/484; */
+        padding: 6.7%;
+        border-radius: 30px;
+        background: url(../img/banner.png) no-repeat;
+        background-size: cover;
+        color: #ffffff;
+    }
+
+    .banner-1 h2 {
+        width: 100%;
+        height: auto;
+        font-size: 7.5vw;
+        font-weight: 500;
+        margin-bottom: 13%;
+    }
+
+    .banner-1 .content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .banner-1 .content .block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .banner-1 .content .block:not(.final-block) {
+        margin-bottom: 13%;
+    }
+
+    .banner-1 .content .block img {
+        width: 9.2%;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 6.7%;
+    }
+
+    .banner-1 .content .block p {
+        width: 100%;
+        height: 45%;
+        font-size: 4.4vw;
+        font-weight: 300;
+    }
+
+    .banner-2 {
+        width: 100%;
+        padding: 15% 3% 4% 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner-2 h2 {
+        width: 100%;
+        font-size: 6.25vw;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 6.7%;
+    }
+
+    .banner-2 p {
+        width: 70%;
+        text-align: center;
+        font-size: 3.75vw;
+        margin-bottom: 6.7%;
+    }
+
+    .banner-2 img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .contact {
+        width: 94%;
+        margin: 0 auto;
+        background: #F5F5F5;
+        border-radius: 10px;
+        padding: 6.7%;
+        margin-bottom: 15%;
+        display: block;
+    }
+
+    .contact .form-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .contact .form-content h2 {
+        width: 82%;
+        font-size: 7.5vw;
+        font-weight: 500;
+        margin-bottom: 6%;
+    }
+
+    .contact form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact form input {
+        width: 100%;
+        height: auto;
+        border: none;
+        border-radius: 6px;
+        background: #ffffff;
+        padding: 6.2% 3.8%;
+        outline: none;
+        font-size: 4.4vw;
+    }
+
+    .contact form input::placeholder, .contact form textarea::placeholder {
+        color: #333333;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .contact form textarea {
+        resize: none;
+        width: 100%;
+        aspect-ratio: 260/127;
+        border: none;
+        background: #ffffff;
+        padding: 7% 4%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        font-weight: 500;
+        font-style: italic;
+        color: #333333;
+        outline: none;
+    }
+
+    .contact form button {
+        width: 100%;
+        aspect-ratio: 260/48;
+        margin-top: 2%;
+        margin-bottom: 15%;
+        background: #FFCB00;
+        border: none;
+        border-radius: 3px;
+        font-size: 5.6vw;
+        font-weight: 500;
+        color: #333333;
+        cursor: pointer;
+    }
+
+    .contact .info {
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact .info h4 {
+        width: 100%;
+        font-size: 4.4vw;
+        color: #333333;
+        font-weight: 700;
+        margin-bottom: 6.7%;
+    }
+
+    .contact .info h4 span {
+        font-weight: 500;
+    }
+
+    .contact .info p {
+        color: #333333;
+        font-size: 3.1vw;
+        font-weight: 500;
+    }
+
+}
